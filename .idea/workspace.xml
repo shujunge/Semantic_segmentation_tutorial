@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="736a0d82-ce4a-46dd-941d-dcc8ac74cfdf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dilation/CAN_network.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dilation/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dilation/datasets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReNet/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReNet/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/DenseASPP.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/ENet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/PSPNet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/deeplabv3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/dilatedNet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/fcn_fammily.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/lednet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/loss_fammily.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/segent.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model_zoos/unet_fammily.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/augmentations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/caffe_pb2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/ade20k_loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/camvid_loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/cityscapes_loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/mit_sceneparsing_benchmark_loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/nyuv2_loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/pascal_voc_loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/sunrgbd_loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loss.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/metrics.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/fcn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/frrn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/icnet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/linknet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/pspnet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/segnet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/unet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/train.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytorch-semseg-master/validate.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Semantic_segmentation_tutorial$ENet.coverage" NAME="ENet Coverage Results" MODIFIED="1557546998206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_zoos" />
+    <SUITE FILE_PATH="coverage/Semantic_segmentation_tutorial$deeplabv3.coverage" NAME="deeplabv3 Coverage Results" MODIFIED="1557546182468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_zoos" />
+    <SUITE FILE_PATH="coverage/Semantic_segmentation_tutorial$DenseASPP.coverage" NAME="DenseASPP Coverage Results" MODIFIED="1557547210209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_zoos" />
+    <SUITE FILE_PATH="coverage/Semantic_segmentation_tutorial$fcn.coverage" NAME="fcn Coverage Results" MODIFIED="1530949379868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models" />
+    <SUITE FILE_PATH="coverage/Semantic_segmentation_tutorial$PSPNet.coverage" NAME="PSPNet Coverage Results" MODIFIED="1557546107964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model_zoos" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>segnetDown2</find>
+      <find>model_type</find>
+      <find>interp_block</find>
+      <find>Pooling parameters for input shape  (473, 473, 3)  are not defined</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/__init__.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/__init__.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/fcn.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/segnet.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/unet.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/icnet.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/linknet.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/frrn.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/pspnet.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loss.py" />
+        <option value="$PROJECT_DIR$/ReNet/README.md" />
+        <option value="$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/LICENSE" />
+        <option value="$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/deeplab_resnet/model.py" />
+        <option value="$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/inference.py" />
+        <option value="$PROJECT_DIR$/Dilation/CAN_network.py" />
+        <option value="$PROJECT_DIR$/model_zoos/unet_fammliy.py" />
+        <option value="$PROJECT_DIR$/model_zoos/lednet.py" />
+        <option value="$PROJECT_DIR$/model_zoos/segent.py" />
+        <option value="$PROJECT_DIR$/model_zoos/loss_fammily.py" />
+        <option value="$PROJECT_DIR$/model_zoos/PSPnET.py" />
+        <option value="$PROJECT_DIR$/model_zoos/PSPNet.py" />
+        <option value="$PROJECT_DIR$/model_zoos/deeplabv3.py" />
+        <option value="$PROJECT_DIR$/model_zoos/dilatedNet.py" />
+        <option value="$PROJECT_DIR$/model_zoos/fcn_fammily.py" />
+        <option value="$PROJECT_DIR$/model_zoos/ENet.py" />
+        <option value="$PROJECT_DIR$/model_zoos/DenseASPP.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="199" />
+    <option name="y" value="640" />
+    <option name="width" value="1436" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Semantic_segmentation_tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semantic_segmentation_tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Semantic_segmentation_tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semantic_segmentation_tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="model_zoos" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dilation" />
+      <recent name="$PROJECT_DIR$/ReNet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.DenseASPP">
+    <configuration name="DenseASPP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_zoos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Semantic_segmentation_tutorial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_zoos/DenseASPP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="ENet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_zoos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Semantic_segmentation_tutorial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_zoos/ENet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="PSPNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_zoos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Semantic_segmentation_tutorial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_zoos/PSPNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="deeplabv3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model_zoos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Semantic_segmentation_tutorial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_zoos/deeplabv3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="fcn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Semantic_segmentation_tutorial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/fcn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.fcn" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PSPNet" />
+      <item index="2" class="java.lang.String" itemvalue="Python.deeplabv3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ENet" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DenseASPP" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.DenseASPP" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ENet" />
+        <item index="2" class="java.lang.String" itemvalue="Python.deeplabv3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PSPNet" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fcn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="736a0d82-ce4a-46dd-941d-dcc8ac74cfdf" name="Default" comment="" />
+      <created>1530862445396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530862445396</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="39" y="-4" width="1881" height="1084" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2681199" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42303663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27748692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32041883" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27748692" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25885558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/utils.py</url>
+          <line>213</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/sunrgbd_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/models.py" />
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/unet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-710">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="false" />
+            <element signature="e#144#1003#0" expanded="false" />
+            <element signature="e#1046#1540#0" expanded="false" />
+            <element signature="e#1585#2583#0" expanded="false" />
+            <element signature="e#2630#3186#0" expanded="false" />
+            <element signature="e#3221#4132#0" expanded="false" />
+            <element signature="e#4164#4778#0" expanded="false" />
+            <element signature="e#4815#5367#0" expanded="false" />
+            <element signature="e#5404#6064#0" expanded="false" />
+            <element signature="e#6099#6600#0" expanded="false" />
+            <element signature="e#6635#7242#0" expanded="false" />
+            <element signature="e#7281#7976#0" expanded="false" />
+            <element signature="e#8020#8861#0" expanded="false" />
+            <element signature="e#8896#9558#0" expanded="false" />
+            <element signature="e#9588#10556#0" expanded="false" />
+            <element signature="e#10584#11058#0" expanded="false" />
+            <element signature="e#11100#11661#0" expanded="false" />
+            <element signature="e#11707#12632#0" expanded="false" />
+            <element signature="e#12679#13161#0" expanded="false" />
+            <element signature="e#13309#13750#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/linknet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="97" column="13" lean-forward="true" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/frrn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="68" column="64" lean-forward="false" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/ade20k_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="60" column="64" lean-forward="false" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="211" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/fcn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="76" column="77" lean-forward="false" selection-start-line="76" selection-start-column="77" selection-end-line="76" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/icnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/refinenet.py" />
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/segnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-913">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/pspnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="125" column="17" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/augmentations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/deeplab_resnet/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/output/test1_mask.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/output/test2_mask.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/kaffe/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="286">
+            <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/kaffe/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/kaffe/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/kaffe/transformers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/kaffe/shapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/kaffe/tensorflow/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/deeplab_resnet/image_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReNet/deeplab_renet_semantic_segmentation-master/deeplab_resnet/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dilation/data/cityscapes_real.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dilation/datasets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dilation/data/pytorch_out.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dilation/CAN_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/lednet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/unet_fammily.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2181">
+          <caret line="467" column="0" lean-forward="false" selection-start-line="467" selection-start-column="0" selection-end-line="467" selection-end-column="0" />
+          <folding>
+            <element signature="e#221#542#0" expanded="false" />
+            <element signature="e#5055#8896#0" expanded="false" />
+            <element signature="e#8979#13012#0" expanded="false" />
+            <element signature="e#13093#17050#0" expanded="false" />
+            <element signature="e#17134#21290#0" expanded="false" />
+            <element signature="e#21365#22679#0" expanded="false" />
+            <element signature="e#22766#24475#0" expanded="false" />
+            <element signature="e#24538#27691#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/segent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#129#1605#0" expanded="false" />
+            <element signature="e#477#1207#0" expanded="false" />
+            <element signature="e#1266#1531#0" expanded="false" />
+            <element signature="e#1588#1605#0" expanded="false" />
+            <element signature="e#1641#3682#0" expanded="false" />
+            <element signature="e#1914#3412#0" expanded="false" />
+            <element signature="e#3471#3682#0" expanded="false" />
+            <element signature="e#3817#8982#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/keras/losses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="76" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/loss_fammily.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/PSPNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="121" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#441#1036#0" expanded="false" />
+            <element signature="e#1093#1550#0" expanded="false" />
+            <element signature="e#1607#2025#0" expanded="false" />
+            <element signature="e#2070#4113#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/deeplabv3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="241" column="15" lean-forward="true" selection-start-line="241" selection-start-column="15" selection-end-line="241" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#198#1303#0" expanded="false" />
+            <element signature="e#1368#2132#0" expanded="false" />
+            <element signature="e#2185#2376#0" expanded="false" />
+            <element signature="e#2414#3145#0" expanded="false" />
+            <element signature="e#3187#3259#0" expanded="false" />
+            <element signature="e#3302#4607#0" expanded="false" />
+            <element signature="e#4690#8425#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/dilatedNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#164#2210#0" expanded="false" />
+            <element signature="e#2265#3614#0" expanded="false" />
+            <element signature="e#3665#4998#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/fcn_fammily.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="226" column="16" lean-forward="false" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#108#2521#0" expanded="false" />
+            <element signature="e#2574#4887#0" expanded="false" />
+            <element signature="e#4946#7294#0" expanded="false" />
+            <element signature="e#7346#8515#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/DenseASPP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#6274#7290#0" expanded="false" />
+            <element signature="e#7331#8333#0" expanded="false" />
+            <element signature="e#8374#8780#0" expanded="false" />
+            <element signature="e#8821#9271#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_zoos/ENet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+            <element signature="e#445#2299#0" expanded="false" />
+            <element signature="e#2341#3322#0" expanded="false" />
+            <element signature="e#3405#4385#0" expanded="false" />
+            <element signature="e#4422#4887#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
