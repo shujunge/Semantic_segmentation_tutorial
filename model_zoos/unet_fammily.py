@@ -134,7 +134,7 @@ def unet(num_classes=1, input_shape=(224, 224, 1), vgg_weight_path=None):
   x = Activation('relu')(x)
   
   # UP 2
-  x = Conv2DTranspose(256, (2, 2), strides=(2, 2), padding='same')(x)
+  x = Conv2DTranspose(256, (3, 3), strides=(2, 2), padding='valid')(x)
   x = BatchNormalization()(x)
   x = Activation('relu')(x)
   
@@ -162,7 +162,7 @@ def unet(num_classes=1, input_shape=(224, 224, 1), vgg_weight_path=None):
   x = Activation('relu')(x)
   
   # UP 4
-  x = Conv2DTranspose(64, (2, 2), strides=(2, 2), padding='same')(x)
+  x = Conv2DTranspose(64, (3, 3), strides=(2, 2), padding='valid')(x)
   x = BatchNormalization()(x)
   x = Activation('relu')(x)
   
@@ -947,5 +947,5 @@ def ResNetunet(num_classes=1, input_shape=(224, 224, 6)):
   return model
 
 
-model = ResNetunet()
+model = unet(1,(101,101,1))
 model.summary()

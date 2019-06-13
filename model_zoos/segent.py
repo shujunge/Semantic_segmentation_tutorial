@@ -100,8 +100,6 @@ class MaxUnpooling2D(Layer):
                 mask_shape[3]
                 )
 
-
-
 def segnet(
         input_shape,
         n_labels,

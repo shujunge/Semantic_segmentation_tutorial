@@ -109,8 +109,14 @@ def pspnet50(num_classes, input_shape):
   x = Activation('relu')(x)
   x = Dropout(0.1)(x)
   
-  x = Conv2D(num_classes, kernel_size=1)(x)
-  x = Conv2DTranspose(num_classes, kernel_size=(16, 16), strides=(8, 8), padding='same')(x)
+  x = Conv2D(128, kernel_size=1)(x)
+  x = Conv2DTranspose(64, kernel_size=(7, 7), strides=(8, 8), padding='valid')(x)
+  
+  x = Conv2D(64, kernel_size=4, padding='valid')(x)
+  x = BatchNormalization()(x)
+  x = Activation('relu')(x)
+  
+  x = Conv2D(num_classes, kernel_size=3, padding='same')(x)
   x = Activation('sigmoid')(x)
   
   model = Model(img_input, x)
@@ -118,5 +124,5 @@ def pspnet50(num_classes, input_shape):
   return model
 
 
-model =pspnet50(21,(224,224,1))
+model =pspnet50(1,(101,101,1))
 model.summary()
