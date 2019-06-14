@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import os
-base_paths ="./training_history"
-imagescales=["128_128","256_256"]
+base_paths ="./multiple_scales_training_history"
+imagescales=["128_128","256_256","512_512"]
 loss_name = "dice_coef_loss"
 model_names=["unet","segnet"]
 
@@ -21,7 +21,7 @@ index =[]
 for model_name in model_names:
   for imagescale in imagescales:
     name = imagescale+model_name + "_" + loss_name
-    temp = pd.read_csv("./training_history/%s_history.csv" % (name))
+    temp = pd.read_csv("./multiple_scales_training_history/%s_history.csv" % (name))
     plot_data_valloss.append(temp.iloc[:, 0].tolist())
     plot_data_valIOU.append(temp.iloc[:, 1].tolist())
     plot_data_loss.append(temp.iloc[:, 2].tolist())
@@ -63,8 +63,8 @@ for my_index in range(4):
   plt.title("compare different parameters of UNet and SegNet")
   plt.xlabel("epochs")
   plt.ylabel(title_names[my_index])
-  plt.savefig("../summary/model_%s.png"%title_names[my_index],dpi=560)
-  plt.show()
+  plt.savefig("./summary/model_%s.png"%title_names[my_index],dpi=560)
+  # plt.show()
 
 
 

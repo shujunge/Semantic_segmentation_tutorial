@@ -3,9 +3,10 @@ import pandas as pd
 import numpy as np
 import os
 base_paths ="./training_history"
-imagescale="256_256"
-loss_names=["dice_coef_loss","categorical_crossentropy"]
-model_names=["unet","segnet"]
+imagescales=["360_480"]
+loss_name = "dice_coef_loss"
+model_names=["SegNet_DeConv","SegNet_Unpooling","SegNet_UnSamping"]
+
 
 name_lists=[os.path.join(base_paths,index) for index in os.listdir(base_paths)]
 
@@ -18,17 +19,9 @@ plot_data_IOU=[]
 
 index =[]
 
-for loss_name in loss_names:
-  for model_name in model_names:
+for model_name in model_names:
+  for imagescale in imagescales:
     name = imagescale+model_name + "_" + loss_name
-    temp = pd.read_csv("./training_history/%s_history.csv" % (name))
-    plot_data_valloss.append(temp.iloc[:, 0].tolist())
-    plot_data_valIOU.append(temp.iloc[:, 1].tolist())
-    plot_data_loss.append(temp.iloc[:, 2].tolist())
-    plot_data_IOU.append(temp.iloc[:, 3].tolist())
-    index.append(name)
-    
-    name = imagescale +model_name + "_" + loss_name + "_" + "class_weighting"
     temp = pd.read_csv("./training_history/%s_history.csv" % (name))
     plot_data_valloss.append(temp.iloc[:, 0].tolist())
     plot_data_valIOU.append(temp.iloc[:, 1].tolist())
@@ -50,10 +43,13 @@ del index
 
 color_list = ['r', 'b', 'g', 'y', 'k', 'm', 'c', '345']
 title_names =['val_loss','val_IOU','loss','IOU']
+
+
 for my_index in range(4):
   showing_data=total_data[my_index]
   plt.figure(figsize=(8,8))
-  plt.grid()
+
+
   for data_index in range(len(showing_data)):
     plt.plot(["%d"%i for i in range(len(showing_data[data_index]))],showing_data[data_index],
     color=color_list[data_index],label=label_list[data_index])
@@ -68,8 +64,8 @@ for my_index in range(4):
   plt.title("compare different parameters of UNet and SegNet")
   plt.xlabel("epochs")
   plt.ylabel(title_names[my_index])
-  plt.savefig("../summary/UNet_SegNet_%s.png"%title_names[my_index],dpi=560)
-  plt.show()
+  plt.savefig("./summary/model_%s.png"%title_names[my_index],dpi=560)
+  # plt.show()
 
 
 
